@@ -1,7 +1,7 @@
 import React from "react";
 // import "antd/dist/antd.css";
 // import { Avatar, Table } from 'antd';
-import { deleteAuthor, updateAuthor } from "../redux/index";
+import { deleteAuthor } from "../redux/index";
 import { useHistory, Link } from "react-router-dom";
 import  '../customScss/custom.scss'
 import { useSelector, useDispatch } from "react-redux";
